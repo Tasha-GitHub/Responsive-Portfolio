@@ -176,8 +176,7 @@ footer p {
 	padding-left: 30px
 }
 
- /* sticky footer */
-}
+/* sticky footer */
 html, body {
   height: 100%;
   margin: 0;
@@ -185,7 +184,7 @@ html, body {
 
 .wrapper {
   min-height: 100%;
-  margin-bottom: 0px;
+  margin-bottom: -70px;
 }
 
 .push{
@@ -286,7 +285,7 @@ textarea {
 
 
 
-@media screen and (max-width: 980px) {
+@media only screen and (min-width: 800px) and (max-width: 980px) {
 	/* style affecting all page elements */
 
 	section {
@@ -365,8 +364,7 @@ textarea {
 /*--------------------Responsive 768 Screen Size-------------------------*/
 
 
-
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 700px) and (max-width: 768px) {
 
 	header {
 		padding-bottom: 0px;
@@ -428,6 +426,11 @@ textarea {
 		padding: 10px 10px 10px 10px;
 		margin: 10px 10px 10px 50px;
 		float: right;
+	}
+
+	footer {
+	clear: both;
+	margin-top: 30px;
 	}
 /* just my projects page style */
 
@@ -541,7 +544,10 @@ textarea {
 		padding-right: 20px;
 		margin-left: 80px;
 	}
-
+	footer {
+		clear: both;
+		margin-top: 30px;
+	}
 /* just my projects page style */
 
 	.projects {
